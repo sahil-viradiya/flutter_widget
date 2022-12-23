@@ -1,27 +1,21 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:flutter/material.dart';
-import './textwidget.dart';
 import './buttion.dart';
 import './container_padding.dart';
 import './image.dart';
+import './networkimage.dart';
+import './listview.dart';
+import './decorationimage.dart';
+import './dissmissiblelistview.dart';
+import './setstate.dart';
+import './textfeild.dart';
+import './sizebox.dart';
+import './gridview.dart';
+import './mediaquery.dart';
+import './screen2.dart';
+import './textwidget.dart';
 
-void main(List<String> args) {
-  return runApp(Img());
-}
-
-class MyApp extends StatefulWidget {
-  MyApp({super.key});
-
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-        // home: Tex(),
-        );
-  }
+void main() {
+  return runApp(MEDIAQ());
 }
